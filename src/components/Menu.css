@@ -1,0 +1,31 @@
+.menu-section {
+  padding: 6rem 4rem; background: var(--bg-alt);
+}
+.menu-header {
+  text-align: center; margin-bottom: 3.5rem;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem; max-width: 1200px; margin: 0 auto;
+}
+.menu-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 4px; padding: 1.75rem; cursor: pointer;
+  position: relative; overflow: hidden; transition: box-shadow 0.3s;
+}
+.menu-card:hover { box-shadow: 0 8px 32px var(--shadow); }
+.card-icon { font-size: 2rem; margin-bottom: 1rem; }
+.menu-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;
+}
+.menu-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.25rem; }
+.card-price { font-size: 1.05rem; font-weight: 500; color: var(--accent); }
+.card-line {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+  background: var(--accent-xlt); transform: scaleX(0);
+  transform-origin: left; transition: transform 0.35s ease;
+}
+.menu-card:hover .card-line { transform: scaleX(1); }
+@media (max-width: 900px) { .menu-section { padding: 4rem 1.5rem; } }
