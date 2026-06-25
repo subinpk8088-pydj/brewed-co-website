@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="tel:+919847055210">+91 98470 55210</a></li>
+            <li><a href="tel:+919847055210">+91 9999999999</a></li>
             <li><a href="mailto:hello@brewedandco.in">hello@brewedandco.in</a></li>
             <li><span>Fort Kochi, Kerala</span></li>
           </ul>

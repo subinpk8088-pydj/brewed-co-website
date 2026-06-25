@@ -5,7 +5,7 @@ import './Contact.css'
 const info = [
   { icon: '📍', label: 'Address',  val: '12B, Burgher Street, Fort Kochi\nKochi, Kerala 682001' },
   { icon: '🕐', label: 'Hours',    val: 'Mon–Fri: 7:30 AM – 9:00 PM\nSat–Sun: 8:00 AM – 10:00 PM' },
-  { icon: '📞', label: 'Phone',    val: '+91 98470 55210' },
+  { icon: '📞', label: 'Phone',    val: '+91 9999999999' },
   { icon: '✉️', label: 'Email',    val: 'hello@brewedandco.in' },
 ]
 
